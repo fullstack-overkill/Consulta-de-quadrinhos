@@ -1,0 +1,16 @@
+{
+    "files.autoSave": "afterDelay",
+    "editor.suggestSelection": "first",
+    "editor.fontSize": 20,
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.colorTheme": "Dracula",
+    "workbench.iconTheme": "eq-material-theme-icons-darker",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.fontWeight": "400", // Medium
+    "launch": {
+
+        "configurations": [],
+        "compounds": []
+    }
+}
