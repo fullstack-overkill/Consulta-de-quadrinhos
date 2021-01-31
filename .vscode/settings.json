@@ -4,7 +4,7 @@
     "editor.fontSize": 20,
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "workbench.colorTheme": "Dracula",
-    "workbench.iconTheme": "eq-material-theme-icons-light",
+    "workbench.iconTheme": "material-icon-theme",
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
     "editor.fontWeight": "400", // Medium
