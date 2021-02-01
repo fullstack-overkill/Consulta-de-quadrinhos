@@ -1,0 +1,15 @@
+
+.ui-search{
+	display: flex;
+	padding: 4.1px;
+	align-items: center;
+	border-radius: 100%;
+	justify-content: center;
+	user-select: none;
+	cursor: pointer;
+	border: 1px solid #17153E;
+	span{
+		color: #2E2D30;
+		font-size: 19.4px;
+	}
+}
