@@ -1,4 +1,43 @@
-h1{
-    font-size: 99px;
-    background-color: red;
+
+.body{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    height: 100%;
+    .coll-1{
+        display: grid;
+        grid-template-rows: 26px 1fr;
+        grid-template-columns: 1fr;
+        padding: 35px;
+        main{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: min-content min-content 1fr;
+            padding: 53px 0px 0px 0px;
+            .row-1{
+                font-family: 'Roboto Condensed';
+                font-smooth: grayscale;
+                color: #2E2D30;
+                font-size: 14px;
+                font-weight: 500;
+            }
+            .row-2{
+                font-family: 'Roboto Condensed';
+                font-smooth: grayscale;
+                color: #2E2D30;
+                font-size: 60px;
+                font-weight: bold;
+            }
+            .row-3{
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+                padding: 50px 0px 0px 0px;
+            }
+        }
+    }
+    .coll-2{
+        background-color: #1a1843;
+    }
 }
