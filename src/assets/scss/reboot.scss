@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+/* Flex fix */
+#root{
+  display: flex;
+  flex-direction: column;
+  min-width: 0px;
+  min-height: 0px;
+  width: 100%;
+  height: 100%;
+}
 
 html {
   font-family: sans-serif;
@@ -16,7 +25,13 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
 
-body {
+html, body {
+  display: flex;
+  flex-direction: column;
+  min-width: 0px;
+  min-height: 0px;
+  width: 100%;
+  height: 100%;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
