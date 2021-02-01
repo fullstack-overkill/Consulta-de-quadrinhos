@@ -1,0 +1,24 @@
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  nav {
+    display: flex;
+    align-items: center;
+    a {
+      font-family: 'Roboto Condensed';
+      font-smooth: grayscale;
+      color: #7D7B8D;
+      font-size: 14px;
+      margin-left: 29px;
+      user-select: none;
+      font-weight: bold;
+    }
+    section{
+      display: flex;
+      align-items: center;
+      margin: 0px 0px 0px 18px;
+    }
+  }
+}
