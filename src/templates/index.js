@@ -1,1 +1,0 @@
-/* Tempate files */
