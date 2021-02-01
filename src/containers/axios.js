@@ -1,11 +1,10 @@
-import axios from 'axios'
+import axios from "axios";
+
+const url = ""
 
 const api = axios.create({
-	baseURL: facilita.api,
-	withCredentials: true,
-})
+  baseURL: url,
+  withCredentials: true,
+});
 
-
-export {
-	api,
-}
+export default  axios ;

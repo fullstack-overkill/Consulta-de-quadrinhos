@@ -1,12 +1,26 @@
 import "./style.scss";
+import { useState } from "react";
 import UiAvatar from "../../../components/ui/avatar";
 
 import AppHeader from "../../../components/app/header";
 import AppComicsList from "../../../components/app/comicsList";
 
 export default () => {
+  const [hover, setHover] = useState(false);
+
+  const handleScroll = (e) => {
+    const bottom =
+      e.target.scrollHeight - e.target.scrollTop === e.target.clientHeight;
+    if (bottom) {
+      console.log("scrol");
+    }
+  };
+
   return (
-    <div className="body">
+    <div className="body" onScroll={handleScroll}>
+      <a className="scroll" href="#coll-2">
+        <span className="material-icons">expand_more</span>
+      </a>
       <div className="coll-1">
         <AppHeader />
         <main>
@@ -19,7 +33,9 @@ export default () => {
           </section>
         </main>
       </div>
-      <div className="coll-2"></div>
+      <div id="coll-2" className="coll-2">
+        <UiAvatar />
+      </div>
     </div>
   );
 };

@@ -1,43 +1,80 @@
-
-.body{
+.body {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+  .scroll {
+    visibility: hidden;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 30;
+    height: 50px;
+    span {
+      color: #2e2d30;
+      font-size: 36px;
+      background: #fff;
+      border-radius: 100%;
+    }
+  }
+  .coll-1 {
     display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 26px 1fr;
+    grid-template-columns: 1fr;
+    padding: 35px;
+    min-height: 0px;
+    main {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: min-content min-content 1fr;
+      padding: 53px 0px 0px 0px;
+      min-height: 0px;
+      .row-1 {
+        font-family: "Roboto Condensed";
+        font-smooth: grayscale;
+        color: #2e2d30;
+        font-size: 14px;
+        font-weight: 500;
+        min-height: 0px;
+      }
+      .row-2 {
+        font-family: "Roboto Condensed";
+        font-smooth: grayscale;
+        color: #2e2d30;
+        font-size: 60px;
+        font-weight: bold;
+        min-height: 0px;
+      }
+      .row-3 {
+        display: flex;
+        flex-direction: column;
+        min-height: 0px;
+        min-width: 0px;
+        padding: 50px 0px 0px 0px;
+        min-height: 0px;
+      }
+    }
+  }
+  .coll-2 {
+    background-color: #1a1843;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .body {
+    display: grid;
+    grid-template-rows: calc(100vh - 50px) 100vh;
+    grid-template-columns: 1fr;
     width: 100%;
     height: 100%;
-    .coll-1{
-        display: grid;
-        grid-template-rows: 26px 1fr;
-        grid-template-columns: 1fr;
-        padding: 35px;
-        main{
-            display: grid;
-            grid-template-columns: 1fr;
-            grid-template-rows: min-content min-content 1fr;
-            padding: 53px 0px 0px 0px;
-            .row-1{
-                font-family: 'Roboto Condensed';
-                font-smooth: grayscale;
-                color: #2E2D30;
-                font-size: 14px;
-                font-weight: 500;
-            }
-            .row-2{
-                font-family: 'Roboto Condensed';
-                font-smooth: grayscale;
-                color: #2E2D30;
-                font-size: 60px;
-                font-weight: bold;
-            }
-            .row-3{
-                display: flex;
-                flex-direction: column;
-                height: 100%;
-                padding: 50px 0px 0px 0px;
-            }
-        }
+    .scroll{
+        visibility:unset;
     }
-    .coll-2{
-        background-color: #1a1843;
-    }
+  }
 }

@@ -4,7 +4,7 @@ export default () => {
   return (
     <>
       <section className="ui-search" role="search">
-        <span class="material-icons">search</span>
+        <span className="material-icons">search</span>
       </section>
     </>
   );

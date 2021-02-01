@@ -3,82 +3,76 @@ import "./style.scss";
 export default () => {
   return (
     <div className="ui-avatar">
-      <div class="wrapper">
-        <div class="logo">
-          <img
-            src="http://www.clipartroo.com/images/3/exciting-word-clipart-3646.png"
-            alt=""
-          />
-        </div>
-        <div class="wolverine">
-          <div class="wolverine-body">
-            <div class="wolverine-torso">
-              <div class="peck left">
-                <div class="wolverine-arm left">
-                  <div class="forearm"></div>
-                  <div class="fist">
-                    <div class="finger"></div>
-                    <div class="finger"></div>
-                    <div class="finger"></div>
-                    <div class="finger"></div>
-                    <div class="wolverine-claws">
-                      <div class="wolverine-claw"></div>
-                      <div class="wolverine-claw"></div>
-                      <div class="wolverine-claw"></div>
+      <div className="wrapper">
+        <div className="wolverine">
+          <div className="wolverine-body">
+            <div className="wolverine-torso">
+              <div className="peck left">
+                <div className="wolverine-arm left">
+                  <div className="forearm"></div>
+                  <div className="fist">
+                    <div className="finger"></div>
+                    <div className="finger"></div>
+                    <div className="finger"></div>
+                    <div className="finger"></div>
+                    <div className="wolverine-claws">
+                      <div className="wolverine-claw"></div>
+                      <div className="wolverine-claw"></div>
+                      <div className="wolverine-claw"></div>
                     </div>
                   </div>
                 </div>
-                <div class="shoulderpad"></div>
+                <div className="shoulderpad"></div>
               </div>
-              <div class="peck right">
-                <div class="wolverine-arm right">
-                  <div class="forearm"></div>
-                  <div class="fist">
-                    <div class="finger"></div>
-                    <div class="finger"></div>
-                    <div class="finger"></div>
-                    <div class="finger"></div>
-                    <div class="wolverine-claws">
-                      <div class="wolverine-claw"></div>
-                      <div class="wolverine-claw"></div>
-                      <div class="wolverine-claw"></div>
+              <div className="peck right">
+                <div className="wolverine-arm right">
+                  <div className="forearm"></div>
+                  <div className="fist">
+                    <div className="finger"></div>
+                    <div className="finger"></div>
+                    <div className="finger"></div>
+                    <div className="finger"></div>
+                    <div className="wolverine-claws">
+                      <div className="wolverine-claw"></div>
+                      <div className="wolverine-claw"></div>
+                      <div className="wolverine-claw"></div>
                     </div>
                   </div>
                 </div>
-                <div class="shoulderpad"></div>
+                <div className="shoulderpad"></div>
               </div>
             </div>
-            <div class="wolverine-head">
-              <div class="cowl-left">
-                <div class="eye"></div>
+            <div className="wolverine-head">
+              <div className="cowl-left">
+                <div className="eye"></div>
               </div>
-              <div class="cowl-right">
-                <div class="eye"></div>
+              <div className="cowl-right">
+                <div className="eye"></div>
               </div>
-              <div class="face">
-                <div class="mouth">
-                  <div class="tongue"></div>
-                  <div class="teeth"></div>
+              <div className="face">
+                <div className="mouth">
+                  <div className="tongue"></div>
+                  <div className="teeth"></div>
                 </div>
               </div>
             </div>
-            <div class="wolverine-leg right">
-              <div class="boot">
-                <div class="chevron"></div>
+            <div className="wolverine-leg right">
+              <div className="boot">
+                <div className="chevron"></div>
               </div>
             </div>
-            <div class="wolverine-crotch"></div>
-            <div class="wolverine-belt">
-              <div class="buckle"></div>
+            <div className="wolverine-crotch"></div>
+            <div className="wolverine-belt">
+              <div className="buckle"></div>
             </div>
-            <div class="wolverine-leg left">
-              <div class="boot">
-                <div class="chevron"></div>
+            <div className="wolverine-leg left">
+              <div className="boot">
+                <div className="chevron"></div>
               </div>
             </div>
           </div>
-          <div class="snikt left">Snikt!</div>
-          <div class="snikt right">Snikt!</div>
+          <div className="snikt left">Snikt!</div>
+          <div className="snikt right">Snikt!</div>
         </div>
       </div>
     </div>
