@@ -1,0 +1,34 @@
+.app-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 26px;
+  height: 26px;
+  .line-1 {
+    width: 26px;
+    height: 11px;
+    display: flex;
+    justify-content: space-between;
+    .ball {
+      width: 10.24px;
+      height: 10.24px;
+      border-radius: 100%;
+      background-color: #120d5a;
+    }
+  }
+  .line-2 {
+    width: 26px;
+    height: 11px;
+    display: flex;
+    justify-content: space-between;
+    .ball {
+      width: 10.24px;
+      height: 10.24px;
+      border-radius: 100%;
+      background-color: #120d5a;
+    }
+  }
+  .ball-allt{
+      background-color: #BDC9FD !important;
+  }
+}
