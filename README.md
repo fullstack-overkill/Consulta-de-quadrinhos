@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# Bem vindo a shield!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Irei fazer uma explicação rapida do projeto ^^ 
 
-## Available Scripts
 
-In the project directory, you can run:
+# Files
 
-### `yarn start`
+- src
+  - _test_: Arquivos de testes do nightwatch;
+  - assets: Arquivos relacionado a recursos do projeto;
+    -   fonts: arquivos de fontes do projeto;
+    -  imgs: jpg, svg e etc usados no projeto;
+    -  scss: Arquivos scss responsáveis por normalizar os elementos e configurar as fontes do projeto;
+   -  components: Componentes reutilizáveis do projeto;
+      -  app: Componentes com algum tipo de regra de negocio ou específicos do projeto;
+      - ui: Componentes genéricos
+     - containers: Isolamento dos plugins utilizados;
+     - mixins: funções e classes genericas;
+     - routes: rotas do sistema;
+       - index.js: loop das rotas usando o react router;
+       - routes.js: Objeto contendo todas as rotas do sistema;
+     - services: Abstração da API;
+       -   axios: Abrstração do Axios;
+           -  modules: acessos externos usando Axios;
+           -  index,js: ponto de acesso dos modules;
+           -  rest.js: Abstração de funçoes rest;
+       -   storage: Abstração do localStorage;
+     -  templates: Componentes genéricos de pagina;
+     -  Views: lista de views do projeto;
+	     - private: views que necessitão autenticação;
+	     - public: views livres para acesso;
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Componentes
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Divididos em dois arquivos:
+-  index.js
+- style.scss
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Se utiliza o index como ponto de partida do componente para que ele possa crescer horizontalmente caso necessario.
