@@ -14,7 +14,7 @@ export default () => {
             render={(props) => <route.component />}
           />
         ))}
-        <Route component={() => <h1>Not Found!</h1>} />
+        <Route component={() => <h1>Não encontrado!</h1>} />
       </Switch>
     </Router>
   );

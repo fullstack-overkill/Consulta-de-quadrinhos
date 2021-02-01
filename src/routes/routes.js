@@ -2,7 +2,7 @@ import Home from "../views/public/home"
 
 const routes = [
   { 
-    path: "/", 
+    path: "/Consulta-de-quadrinhos", 
     key: "Home", 
     exact: true, 
     component: Home
